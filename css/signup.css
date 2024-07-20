@@ -1,0 +1,153 @@
+img.logo{
+  width: 100px;
+  height: 65px;
+  border: 5px groove;
+  margin-left:15px;
+}
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .topnav {         
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    height:70px;            
+    /* padding: 0px;
+    margin-left: 10px;
+    overflow: hidden; */
+  }
+  
+  .topnav a {
+    display: block;
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .topnav p {
+    float: left;
+    margin-left: 10px;
+    font-size: 32px;
+    padding: 0px;
+    margin-top: 17px;
+    font-family: Comic San;
+    font-weight:bold;
+  
+  }
+  
+  
+  .topnav a:hover {
+    background-color: rgb(205, 205, 205);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #091dfb;
+    color: white;
+  }
+  
+  .footer {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 6, 6);
+    text-align: center;
+  }
+  
+  .title{
+      border:solid 2px black;
+      padding:25px;
+      margin:auto;
+      margin-bottom:50px;
+      text-align:center;
+      width: 450px;
+  }
+
+  .logintitle{
+    border-radius: 20px;
+    padding:25px;
+    width: 600px;
+    background-color:white;
+    text-align:center;
+    margin:auto;
+    box-shadow: 10px 10px #888888;
+  }
+  .signuptitle{
+    border-radius: 20px;
+    padding:25px;
+    width: 400px;
+    background-color:white;
+    text-align:center;
+    margin:auto;
+    box-shadow: 10px 10px #888888;
+  }
+  
+  .popup{
+      width:400px;
+      background: #C4D9FE;
+      border-radius:6px;
+      border:5px solid;
+      position: absolute;
+      top:0;
+      left:50%;
+      transform:translate(-50%,-50%)scale(0.1);
+      text-align:center;
+      padding: 0 30px 30px;
+      color:#333;
+      visibility:hidden;
+      transition: transform 0.4s,top 0.4s;
+  }
+  .popup h2{
+      font-size:38px;
+      font-weight:500;
+      margin: 30px 30px;
+  }
+  .popup button{
+      width:100%;
+      margin-top:50px;
+      padding: 10px 0;
+      background: #6fd649;
+      color: #fff;
+      border: 0;
+      outline: none;
+      font-size: 18px;
+      border-radius:4px;
+      cursor: pointer;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  }
+  .open-popup{
+      visibility:visible;
+      position:fixed;
+      left:50%;
+      top:50%;
+      transform:translate(-50%,-50%)scale(1);
+  }
+  
+  .btn {
+    border: none;
+    color: black;
+    padding: 6px 8px;
+    cursor: pointer;
+  }
+
+  /* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+  
+  .flex-container > div {
+    margin-right: 30px;
+    padding: 5px;
+  }
